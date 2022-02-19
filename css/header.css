@@ -1,0 +1,29 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.header-anonce {
+    justify-self: center;
+}
+
+.header-nav {
+    justify-self: end;
+}
+
+@media (max-width: 750px) {
+    .header-container {
+        grid-template-columns: 60px 1fr 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        grid-template-columns: 45px 1fr 45px;
+    }
+}

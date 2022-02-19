@@ -1,0 +1,127 @@
+.present {
+    padding-top: 27px;
+}
+
+.present-title {
+    font-family: 'IBM Plex Mono';
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 120%;
+    margin-bottom: 8px;
+}
+
+.present-tagline {
+    line-height: 130%;
+    margin-bottom: 54px;
+    max-width: 350px;
+}
+
+.present-btn {
+    display: block;
+    width: 285px;
+    height: 68px;
+    background-image: url(../img/button.png);
+    filter: drop-shadow(-4px 6px 10px rgba(10, 10, 10, 0.51));
+    border-radius: 2px;
+    background-position: center;
+    background-size: cover;
+}
+
+.present-hero {
+    margin-bottom: 30px;
+}
+
+@media (min-height: 900px) {
+    .present {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .present-container {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        max-height: 1100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .present {
+        padding-top: 25px;
+    }
+
+    .present-hero {
+        margin-bottom: 10px;
+    }
+
+    .present-title {
+        font-size: 70px;
+    }
+    
+    .present-tagline {
+        max-width: 290px;
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+
+    .present-btn {
+        width: 246px;
+        height: 59px;
+    }
+}
+
+@media (max-width: 850px) {
+    .present {
+        padding-top: 58px;
+    }
+
+    .present-hero {
+        margin-bottom: 0;
+    }
+
+    .present-title {
+        font-size: 60px;
+    }
+
+    .present-hero-section {
+        margin-top: -26px;
+    }
+}
+
+@media (max-width: 650px) {
+    .present {
+        padding-top: 75px;
+    }
+    .present-hero {
+        margin-bottom: 30px;
+    }
+    .present-hero-section {
+        margin-top: 0;
+    }
+    .present-title {
+        font-size: 50px;
+        margin-bottom: 6px;
+    }
+    
+    .present-tagline {
+        max-width: 260px;
+        margin-bottom: 23px;
+    }
+    .present-btn {
+        width: 290px;
+        height: 63px;
+    }
+}
+
+@media (max-width: 480px) {
+    .present-title {
+        font-size: 40px;
+    }
+    
+    .present-tagline {
+        max-width: 193px;
+    }
+}
